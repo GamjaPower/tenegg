@@ -49,7 +49,6 @@ class NaverNewsCrawler():
             print li.find("span", class_="u_cbox_contents").getText()
             print li.find("span", class_="u_cbox_nick").getText()
             print li.find("span", class_="u_cbox_date").getText()
-            #   
             
         
     def crawl(self,):
